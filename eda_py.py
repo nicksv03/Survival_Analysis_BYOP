@@ -38,12 +38,13 @@ warnings.filterwarnings('ignore')
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
-
+import os
+path = r'/Users/nikhil/Library/CloudStorage/GoogleDrive-dcbs17nikhilverma@gmail.com/My Drive/Github/Survival_Analysis_BYOP'
+os.chdir(path.replace('\\', '/'))
 
 #%% data.import
 
-apld = pd.read_pickle('df_diabetes_s1.pickle')
-
+apld = pd.read_pickle(path+r'/dataset/output/df_diabetes_s1.pickle')
 #%% data.filter
 
 # paid claims only
