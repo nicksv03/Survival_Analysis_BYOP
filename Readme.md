@@ -1,4 +1,4 @@
-# Survival Analysis On Synthesis Data for Diabetic Patients
+# Survival Analysis On Synthetic Data for Diabetic Patients
 
 Thanks to everyone in the group for their contribution and support - Ashutosh, Babli, Orooj, Swapnil, Shubhi and Suruchi.
 
